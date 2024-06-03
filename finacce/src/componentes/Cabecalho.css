@@ -1,0 +1,53 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: #3880ff;
+    color: white;
+    width: 105%;
+    box-sizing: border-box;
+}
+
+.menu-usuario {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-usuario img {
+    cursor: pointer;
+    height: 30px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.menu-usuario:hover .dropdown-content {
+    display: block ;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.icon-container img {
+    cursor: pointer;
+    height: 30px;
+}

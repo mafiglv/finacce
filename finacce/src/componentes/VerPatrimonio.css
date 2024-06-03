@@ -1,0 +1,107 @@
+.ver-patrimonio-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f5;
+    padding-top: 200px; /* Espaço para o cabeçalho */
+    padding-bottom: 20px;
+    overflow-y: auto;
+}
+
+.ver-patrimonio-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin: 20px;
+}
+
+.patrimonio-info {
+    margin-bottom: 20px;
+}
+
+.patrimonio-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.patrimonio-item img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.adicionar-patrimonio {
+    margin-top: 20px;
+}
+
+.adicionar-patrimonio h3 {
+    margin-bottom: 10px;
+}
+
+.adicionar-patrimonio form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.adicionar-patrimonio input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.adicionar-patrimonio .btn {
+    background-color: #3880ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.adicionar-patrimonio .btn:hover {
+    background-color: #1f5bb5;
+}
+
+/* Estilos adicionais para seleção de ícone */
+.upload-imagem {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.upload-imagem label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.upload-imagem input[type="file"] {
+    display: none;
+}
+
+.upload-imagem .custom-file-upload {
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #3880ff;
+}
+
+/* Estilo adicional para o total de patrimônios */
+.total-patrimonio {
+    text-align: center;
+    margin-bottom: 20px;
+}

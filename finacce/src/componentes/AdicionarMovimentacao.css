@@ -1,0 +1,137 @@
+/* AdicionarMovimentacao.css */
+
+.adicionar-movimentacao-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f5;
+    padding-top: 60px; /* Espaço para o cabeçalho */
+    padding-bottom: 20px;
+    overflow-y: auto;
+}
+
+.adicionar-movimentacao-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin: 20px;
+}
+
+.adicionar-movimentacao-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.adicionar-movimentacao-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.adicionar-movimentacao-container input,
+.adicionar-movimentacao-container select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.forma-pagamento p,
+.data-compra p,
+.comprovante p {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.forma-pagamento label,
+.data-compra input {
+    margin-right: 10px;
+}
+
+.custom-file-upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #fff;
+    color: #3880ff;
+    margin-top: 10px;
+}
+
+.custom-file-upload img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.btn {
+    background-color: #3880ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #1f5bb5;
+}
+
+.movimentacao-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.movimentacao-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.movimentacao-info img {
+    width: 40px;
+    height: 40px;
+}
+
+.observar-comprovante {
+    background-color: #3880ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.observar-comprovante:hover {
+    background-color: #1f5bb5;
+}
+
+.ganhos-gastos-selecao,
+.ganhos-gastos-selecao label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.ganhos-gastos-selecao label {
+    margin-right: 10px;
+}

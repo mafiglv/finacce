@@ -1,0 +1,61 @@
+.patrimonio-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.patrimonios-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center; /* Centraliza os itens */
+}
+
+.patrimonio-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between; /* Adicionado */
+    width: 100%; /* Adicionado */
+}
+
+.patrimonio-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.patrimonio-info {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.patrimonio-info p {
+    margin: 0;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #3880ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #1f5bb5;
+}

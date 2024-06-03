@@ -1,0 +1,39 @@
+.secao-saldo {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+}
+
+.contas {
+    margin-top: 16px;
+}
+
+.conta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.conta-logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.btn-ajustar-saldo {
+    background-color: #3880ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.btn-ajustar-saldo:hover {
+    background-color: #1f5bb5;
+}
