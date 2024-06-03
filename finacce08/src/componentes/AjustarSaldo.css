@@ -1,0 +1,151 @@
+.ajustar-saldo-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh; 
+    background-color: #f0f0f5;
+    padding-top: 60px; 
+    padding-bottom: 20px;
+    overflow-y: auto;
+}
+
+.ajustar-saldo-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin: 20px;
+}
+
+.ajustar-saldo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ajustar-saldo-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.ajustar-saldo-info {
+    flex-grow: 1;
+}
+
+.ajustar-saldo-info p {
+    margin: 0;
+}
+
+.ajustar-saldo-info input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #1e5cc8;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%; 
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #1f5bb5;
+}
+
+.adicionar-btn {
+    margin-top: 20px;
+}
+
+.salvar-btn {
+    margin-top: 10px;
+}
+
+.icon-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.edit-btn, .remove-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.edit-icon, .remove-icon {
+    width: 24px;
+    height: 24px;
+}
+
+/* Estilos adicionais para seleção de banco e upload de imagem */
+.selecionar-banco-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.upload-imagem {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.upload-imagem label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.upload-imagem input[type="file"] {
+    display: none;
+}
+
+.upload-imagem .custom-file-upload {
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #3880ff;
+}
+
+.tipo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.tipo-selecao {
+    display: flex;
+    flex-direction: column;
+}
+
+.tipo-selecao input[type="text"] {
+    margin-top: 10px;
+}
